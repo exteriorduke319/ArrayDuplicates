@@ -21,7 +21,7 @@ public class Main {
 
             if (!foundBefore) {
                 for (int j = i; j < nums.length; j++) {
-                    if(nums[i] == nums[j]) {
+                    if (nums[i] == nums[j]) {
                         count++;
                     }
                 }
@@ -33,7 +33,7 @@ public class Main {
             }
         }
         if (!foundDup) {
-            System.out.println("There are no duplicates in the array.");
+            System.out.println("There aren't any duplicates in the array.");
         }
 
     }
